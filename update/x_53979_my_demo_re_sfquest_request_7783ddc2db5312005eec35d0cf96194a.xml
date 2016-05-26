@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_53979_my_demo_re_sfquest_request">
+    <x_53979_my_demo_re_sfquest_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string>(!current.assigned_to.nil() || !current.template.nil()) &amp;&amp; (new sn_sm.SMConfiguration()).isEnabled(current, "approval", false) &amp;&amp; !(new sn_sm.SMConfiguration()).isEnabled(current, "qualification", false)</automatic_string>
+        <business_rule display_value="Ready for work (approval on)">b783ddc2db5312005eec35d0cf96194a</business_rule>
+        <change_client_script/>
+        <client_script/>
+        <comment>My_Demo_Request Request State flow</comment>
+        <derived_from/>
+        <end_text>10</end_text>
+        <ending_state display_value="Ready">82839dc2db5312005eec35d0cf9619e3</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);]]></manual_script>
+        <manual_string>var sc = new sn_sm.SMConfiguration(); sc.isEnabled(current, "approval", false) &amp;&amp; sc.hasRole(current, 'basic')</manual_string>
+        <name>Ready for work (approval on)</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010028</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>13</start_text>
+        <starting_state display_value="Approved">02839dc2db5312005eec35d0cf9619e2</starting_state>
+        <sys_class_name>x_53979_my_demo_re_sfquest_request</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-11 14:17:22</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7783ddc2db5312005eec35d0cf96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ready for work (approval on)</sys_name>
+        <sys_package display_value="My_Demo_Request" source="x_53979_my_demo_re">a583d1c2db5312005eec35d0cf961962</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My_Demo_Request">a583d1c2db5312005eec35d0cf961962</sys_scope>
+        <sys_update_name>x_53979_my_demo_re_sfquest_request_7783ddc2db5312005eec35d0cf96194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-11 14:17:22</sys_updated_on>
+        <table>x_53979_my_demo_request_request</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action display_value="Ready for work">bf83ddc2db5312005eec35d0cf96194a</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_53979_my_demo_re_sfquest_request>
+</record_update>

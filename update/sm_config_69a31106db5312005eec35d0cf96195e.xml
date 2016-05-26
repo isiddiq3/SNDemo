@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>false</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_53979_my_demo_re_admin" name="x_53979_my_demo_re_admin">16839dc2db5312005eec35d0cf9619eb</admin_role>
+        <agent_role display_value="x_53979_my_demo_re_agent" name="x_53979_my_demo_re_agent">5a839dc2db5312005eec35d0cf9619eb</agent_role>
+        <app_name>my_demo_request</app_name>
+        <approval>false</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_53979_my_demo_re_approver_user" name="x_53979_my_demo_re_approver_user">9e839dc2db5312005eec35d0cf9619eb</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>true</auto_dispatch>
+        <basic_role display_value="x_53979_my_demo_re_basic" name="x_53979_my_demo_re_basic">d2839dc2db5312005eec35d0cf9619ec</basic_role>
+        <catalog display_value="My_Demo_Request Catalog">88a31106db5312005eec35d0cf96192c</catalog>
+        <created_with_version/>
+        <disabled_processes/>
+        <dispatch_group_type display_value="my_demo_request_dispatch">b783ddc2db5312005eec35d0cf96194d</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_53979_my_demo_re_dispatcher" name="x_53979_my_demo_re_dispatcher">1a839dc2db5312005eec35d0cf9619ec</dispatcher_role>
+        <follow_the_sun_priority/>
+        <geolocation_maps>false</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_53979_my_demo_re_initiator" name="x_53979_my_demo_re_initiator">5e839dc2db5312005eec35d0cf9619ec</initiator_role>
+        <kbase display_value="My_Demo_Request Knowledge">14a31106db5312005eec35d0cf961930</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
+        <main_model_category display_value="My_Demo_Request Request Template">3293ddc2db5312005eec35d0cf9619c2</main_model_category>
+        <main_model_table>x_53979_my_demo_request_request_template</main_model_table>
+        <main_state_flow_table>x_53979_my_demo_re_sfquest_request</main_state_flow_table>
+        <main_table>x_53979_my_demo_request_request</main_table>
+        <managed_docs>false</managed_docs>
+        <mandatory_work_notes>true</mandatory_work_notes>
+        <name>My_Demo_Request</name>
+        <part_requirement>false</part_requirement>
+        <property_prefix>x_53979_my_demo_re</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type display_value="my_demo_request_qualification">f783ddc2db5312005eec35d0cf96194d</qualification_group_type>
+        <qualifier_role/>
+        <read_role display_value="x_53979_my_demo_re_read" name="x_53979_my_demo_re_read">92839dc2db5312005eec35d0cf9619ed</read_role>
+        <request_dispatch_method>auto</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>false</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-11 14:17:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>69a31106db5312005eec35d0cf96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_demo_request</sys_name>
+        <sys_package display_value="My_Demo_Request" source="x_53979_my_demo_re">a583d1c2db5312005eec35d0cf961962</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="My_Demo_Request">a583d1c2db5312005eec35d0cf961962</sys_scope>
+        <sys_update_name>sm_config_69a31106db5312005eec35d0cf96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-11 14:17:45</sys_updated_on>
+        <task_activities>false</task_activities>
+        <task_dispatch_method>auto</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="My_Demo_Request Task Template">7293ddc2db5312005eec35d0cf9619c2</task_model_category>
+        <task_model_table>x_53979_my_demo_request_task_template</task_model_table>
+        <task_state_flow_table>x_53979_my_demo_re_sfquest_task</task_state_flow_table>
+        <task_table>x_53979_my_demo_request_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <time_card>false</time_card>
+        <track_travel>false</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>true</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>true</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="my_demo_request_vendor">3b83ddc2db5312005eec35d0cf96194d</vendor_group_type>
+        <work_group_type display_value="my_demo_request">7783ddc2db5312005eec35d0cf96194d</work_group_type>
+    </sm_config>
+</record_update>

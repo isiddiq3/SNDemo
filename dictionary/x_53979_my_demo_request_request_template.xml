@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_serviceorder_product_model" label="My_Demo_Request Request Template" max_length="40" name="x_53979_my_demo_request_request_template" type="collection"/>
+</database>
